@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.62.2" platform="*nix">
+	<FtpSessionResumption>
+		<Entry Host="ftp.ajj3008642.nichost.ru" Port="21">true</Entry>
+	</FtpSessionResumption>
+</FileZilla3>

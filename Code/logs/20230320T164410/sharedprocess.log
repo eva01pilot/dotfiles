@@ -1,0 +1,15 @@
+2023-03-20 16:44:13.257 [info] Starting worker process with pid 17545 (type: fileWatcher, window: 2).
+2023-03-20 16:44:13.264 [info] Starting worker process with pid 17547 (type: fileWatcher, window: 1).
+2023-03-20 16:44:13.426 [info] Deleted from disk devsense.profiler-php-vscode /home/ilya/.vscode/extensions/devsense.profiler-php-vscode-1.31.12740
+2023-03-20 16:44:13.426 [info] Deleted from disk devsense.composer-php-vscode /home/ilya/.vscode/extensions/devsense.composer-php-vscode-1.31.12740
+2023-03-20 16:44:13.451 [info] Deleted from disk devsense.phptools-vscode /home/ilya/.vscode/extensions/devsense.phptools-vscode-1.31.12740-linux-x64
+2023-03-20 16:44:17.594 [info] Worker process with pid 17547 terminated normally (type: fileWatcher, window: 1).
+2023-03-21 04:44:19.773 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2023-03-21 04:44:20.628 [info] Installing extension: bradlc.vscode-tailwindcss
+2023-03-21 04:44:24.215 [info] Extension signature verification: bradlc.vscode-tailwindcss. Verification status: Verified.
+2023-03-21 04:44:24.286 [info] Extracted extension to /home/ilya/.vscode/extensions/.5185391f-e343-4e3c-8f15-329683b3c7b0: bradlc.vscode-tailwindcss
+2023-03-21 04:44:24.292 [info] Renamed to /home/ilya/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.9
+2023-03-21 04:44:24.293 [info] Extracting completed. bradlc.vscode-tailwindcss
+2023-03-21 04:44:24.306 [info] Extension installed successfully: bradlc.vscode-tailwindcss
+2023-03-21 04:44:24.318 [info] Marked extension as uninstalled bradlc.vscode-tailwindcss-0.9.8
+2023-03-21 06:44:32.559 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}

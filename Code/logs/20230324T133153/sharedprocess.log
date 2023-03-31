@@ -1,0 +1,6 @@
+2023-03-24 13:31:55.911 [info] Starting worker process with pid 111073 (type: fileWatcher, window: 2).
+2023-03-24 13:31:55.914 [info] Starting worker process with pid 111074 (type: fileWatcher, window: 1).
+2023-03-24 13:31:57.154 [info] Deleted from disk bradlc.vscode-tailwindcss /home/ilya/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.8
+2023-03-24 13:32:03.800 [info] Worker process with pid 111074 terminated normally (type: fileWatcher, window: 1).
+2023-03-24 18:52:43.573 [info] Starting worker process with pid 123407 (type: fileWatcher, window: 4).
+2023-03-24 19:01:06.074 [info] Worker process with pid 123407 terminated normally (type: fileWatcher, window: 4).

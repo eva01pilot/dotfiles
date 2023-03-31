@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "/home/ilya/sd-shop-next"
+		},
+		{
+			"name": "SSH FS - bitrixapp",
+			"uri": "ssh://bitrixapp/home/bitrix/www/application"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true
+	}
+}

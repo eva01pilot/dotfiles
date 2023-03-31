@@ -1,0 +1,16 @@
+2023-03-20 16:44:10.304 [info] update#setState idle
+2023-03-20 16:44:11.533 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-03-20 16:44:11.549 [info] [UtilityProcess id: 1, type: extensionHost, pid: 17457]: successfully created
+2023-03-20 16:44:11.649 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-03-20 16:44:11.674 [info] [UtilityProcess id: 2, type: extensionHost, pid: 17468]: successfully created
+2023-03-20 16:44:17.590 [info] [UtilityProcess id: 1, type: extensionHost, pid: 17457]: received exit event with code 0
+2023-03-20 16:44:17.591 [info] Extension host with pid 17457 exited with code: 0, signal: unknown.
+2023-03-20 16:44:40.308 [info] update#setState checking for updates
+2023-03-20 16:44:40.316 [info] update#setState available for download
+2023-03-20 18:14:37.421 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-03-20 18:14:37.444 [info] [UtilityProcess id: 3, type: extensionHost, pid: 24284]: successfully created
+2023-03-20 18:14:37.446 [info] [UtilityProcess id: 2, type: extensionHost, pid: 17468]: received exit event with code 0
+2023-03-20 18:14:37.446 [info] Extension host with pid 17468 exited with code: 0, signal: unknown.
+2023-03-24 13:29:45.581 [info] [UtilityProcess id: 3, type: extensionHost, pid: 24284]: waiting to exit...
+2023-03-24 13:29:45.652 [info] [UtilityProcess id: 3, type: extensionHost, pid: 24284]: received exit event with code 0
+2023-03-24 13:29:45.652 [info] Extension host with pid 24284 exited with code: 0, signal: unknown.

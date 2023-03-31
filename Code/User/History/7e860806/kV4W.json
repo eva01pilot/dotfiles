@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"name": "SSH FS - bitrix",
+			"uri": "ssh://bitrix/home/bitrix/www/local/modules"
+		}
+	],
+	"settings": {}
+}

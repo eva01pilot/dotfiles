@@ -1,0 +1,134 @@
+2023-03-20 16:44:12.247 [info] Extension host with pid 17457 started
+2023-03-20 16:44:12.247 [info] Skipping acquiring lock for /home/ilya/.config/Code/User/workspaceStorage/be63560a4e5e7f65d24419fc4435e247.
+2023-03-20 16:44:12.388 [info] ExtensionService#_doActivateExtension Kelvin.vscode-sshfs, startup: false, activationEvent: 'onFileSystem:ssh'
+2023-03-20 16:44:12.405 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-20 16:44:12.415 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-20 16:44:12.419 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-03-20 16:44:12.425 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-20 16:44:12.544 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-03-20 16:44:12.676 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-20 16:44:12.752 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-20 16:44:14.008 [error] Error: ENOENT: no such file or directory, scandir '/home/bitrix/www/local/modules'
+2023-03-20 16:44:14.072 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-20 16:44:14.223 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-20 16:44:17.536 [info] Extension host terminating: renderer closed the MessagePort
+2023-03-20 16:44:17.561 [error] Canceled: Canceled
+	at new u (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/usr/share/code/resources/app/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:2070210)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-20 16:44:17.562 [info] Eager extensions activated
+2023-03-20 16:44:17.563 [error] Activating extension vscode.debug-auto-launch failed due to an error:
+2023-03-20 16:44:17.563 [error] Canceled: Canceled
+	at new u (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at f.Y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11499)
+	at Object.actualActivateExtension (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8535)
+	at f.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+	at f.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+	at f.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+	at new f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+	at E.k (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+	at E.j (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+	at Array.map (<anonymous>)
+	at E.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+	at E.activateById (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+	at f.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10021)
+	at f.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15029)
+	at f.fb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15325)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15620
+2023-03-20 16:44:17.563 [error] Activating extension vscode.merge-conflict failed due to an error:
+2023-03-20 16:44:17.563 [error] Canceled: Canceled
+	at new u (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at f.Y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11499)
+	at Object.actualActivateExtension (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8535)
+	at f.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+	at f.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+	at f.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+	at new f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+	at E.k (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+	at E.j (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+	at Array.map (<anonymous>)
+	at E.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+	at E.activateById (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+	at f.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10021)
+	at f.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15029)
+	at f.fb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15325)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15620
+2023-03-20 16:44:17.564 [error] Activating extension bradlc.vscode-tailwindcss failed due to an error:
+2023-03-20 16:44:17.564 [error] Canceled: Canceled
+	at new u (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at f.Y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11499)
+	at Object.actualActivateExtension (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8535)
+	at f.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+	at f.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+	at f.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+	at new f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+	at E.k (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+	at E.j (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+	at Array.map (<anonymous>)
+	at E.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+	at E.activateById (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+	at f.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10021)
+	at f.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15029)
+	at f.fb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15325)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15620
+2023-03-20 16:44:17.564 [error] Activating extension dsznajder.es7-react-js-snippets failed due to an error:
+2023-03-20 16:44:17.564 [error] Canceled: Canceled
+	at new u (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at f.Y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11499)
+	at Object.actualActivateExtension (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8535)
+	at f.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+	at f.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+	at f.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+	at new f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+	at E.k (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+	at E.j (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+	at Array.map (<anonymous>)
+	at E.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+	at E.activateById (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+	at f.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10021)
+	at f.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15029)
+	at f.fb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15325)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15620
+2023-03-20 16:44:17.571 [info] Extension host with pid 17457 exiting with code 0

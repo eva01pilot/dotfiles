@@ -1,0 +1,22 @@
+2023-03-31 18:55:09.631 [info] Log level: Info
+2023-03-31 18:55:09.631 [info] Validating found git in: "git"
+2023-03-31 18:55:09.631 [info] Using git "2.39.2" from "git"
+2023-03-31 18:55:09.631 [info] > git rev-parse --show-toplevel [23ms]
+2023-03-31 18:55:09.631 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2023-03-31 18:55:09.631 [info] Open repository: /home/ilya/app-employee-geo
+2023-03-31 18:55:09.631 [info] > git rev-parse --show-toplevel [189ms]
+2023-03-31 18:55:09.631 [info] > git rev-parse --show-toplevel [43ms]
+2023-03-31 18:55:09.631 [info] > git config --get commit.template [133ms]
+2023-03-31 18:55:09.631 [info] > git rev-parse --show-toplevel [48ms]
+2023-03-31 18:55:09.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [49ms]
+2023-03-31 18:55:09.631 [info] > git status -z -uall [58ms]
+2023-03-31 18:55:09.631 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2023-03-31 18:55:09.631 [info] > git rev-parse --show-toplevel [144ms]
+2023-03-31 18:55:09.631 [info] > git config --get commit.template [56ms]
+2023-03-31 18:55:09.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+2023-03-31 18:55:09.631 [info] > git check-ignore -v -z --stdin [196ms]
+2023-03-31 18:55:09.631 [info] > git status -z -uall [130ms]
+2023-03-31 18:55:09.631 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [70ms]
+2023-03-31 18:55:12.416 [info] > git show --textconv :src/bitrix.ts [29ms]
+2023-03-31 18:55:12.416 [info] > git ls-files --stage -- /home/ilya/app-employee-geo/src/bitrix.ts [4ms]
+2023-03-31 18:55:12.467 [info] > git cat-file -s 7c82384278e61c9429cf73a1556e83af26e074cd [12ms]

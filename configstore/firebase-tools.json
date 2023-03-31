@@ -1,0 +1,37 @@
+{
+	"analytics-uuid": "32ff55ee-bffe-4ee4-80e1-17a8d44c4144",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1679044984425
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "111970280292346752597",
+		"email": "eva01pilothmm@gmail.com",
+		"email_verified": true,
+		"at_hash": "g5xipLT6n0WJIhj1gxSiaw",
+		"iat": 1679045001,
+		"exp": 1679048601
+	},
+	"tokens": {
+		"expires_at": 1679048600269,
+		"access_token": "ya29.a0AVvZVspKl6SYIY6PvTsrwPvODKv0xWsOFkKP-5mykos0d2VaBiPLtzOOAvAIYvbVYXOZSSlc1oGS6wxIGE9YiNajBB9gWwE_kpoCnM0nUnPsIARhaF7fvykE4O82rWlrCOUbXk3UM5lw5MVPLTvGDmvGgr4EuLlk36yVaCgYKAVMSARMSFQGbdwaII6ODaYrtNU5zxBzZeMeqdQ0171",
+		"expires_in": 3599,
+		"refresh_token": "1//0cjz8coGOA4jFCgYIARAAGAwSNwF-L9IrhHVbrmdhfqYK7tioJTlqERVygtlKvweBVQEYJR3ZrecKyzyX61okCDRoMPRxjyisWrY",
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4NmVlOWEzYjc1MjBiNDk0ZGY1NGZlMzJlM2U1YzRjYTY4NWM4OWQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExOTcwMjgwMjkyMzQ2NzUyNTk3IiwiZW1haWwiOiJldmEwMXBpbG90aG1tQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZzV4aXBMVDZuMFdKSWhqMWd4U2lhdyIsImlhdCI6MTY3OTA0NTAwMSwiZXhwIjoxNjc5MDQ4NjAxfQ.n4wL17wRJLjglA52ndBSfrpMB5B00Q4fiEdjahSFgZCpbgpqyTjFt6TUDZriVpB6Sch9ypH5GKp-AuAui0NDmGKYcpJGH2puSwnue56p5QlNRurGAQ6h0FLOTU0wQmZG1xPJSCAyy8C6y_Xud8PPlOPWcukXfBBFWsGDNYh_eFwOfwEKFfQNlb62h5VSP1Vk4sl5VLPP6lZK-b9l1pVDfgcmmdfqaSLZ0I0cyP3dosDUPM_HjAyAl0I1k4yW0bnXvzz9qWRYrsY-A6z179RbumdciOm_gqS_cXMmmFCs91HskJMTxsYNkjy9l12dQQ_SfF5i6pbqIwPm2H4DXmBrkw"
+	},
+	"activeProjects": {
+		"/home/ilya/test-selfieid": "test-selfieid-task"
+	}
+}

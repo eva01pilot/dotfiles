@@ -1,0 +1,12 @@
+[Global] Creating projects: [{"folder":"/home/ilya/sd-shop-next","configPath":"/home/ilya/sd-shop-next/tailwind.config.cjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/ilya/sd-shop-next/tailwind.config.cjs","priority":0},{"pattern":"/home/ilya/sd-shop-next/src/**/**/*.{js,ts,jsx,tsx}","priority":1},{"pattern":"/home/ilya/sd-shop-next/src/app/LayoutElements/Navbar.tsx","priority":1},{"pattern":"/home/ilya/sd-shop-next/app/**/*.{js,ts,jsx,tsx}","priority":1},{"pattern":"/home/ilya/sd-shop-next/**","priority":3}]}]
+[Global] Adding watch patterns: /home/ilya/sd-shop-next/tailwind.config.cjs, /home/ilya/sd-shop-next
+[tailwind.config.cjs] Initializing...
+[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/ilya/sd-shop-next/tailwind.config.cjs
+[tailwind.config.cjs] Loaded postcss v8.4.21: /home/ilya/sd-shop-next/node_modules/postcss
+[tailwind.config.cjs] Loaded tailwindcss v3.2.6: /home/ilya/sd-shop-next/node_modules/tailwindcss
+[tailwind.config.cjs] Building...
+undefined
+[35m%s[0m
+[32m%s[0m
+[32m%s[0m
+undefined

@@ -1,0 +1,18 @@
+2023/03/17-20:12:14.559 3 Reusing MANIFEST /home/ilya/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/17-20:12:14.561 3 Recovering log #69
+2023/03/17-20:12:14.562 3 Reusing old log /home/ilya/.config/chromium/Default/Local Storage/leveldb/000069.log 
+2023/03/17-20:48:40.746 3 Level-0 table #73: started
+2023/03/17-20:48:40.757 3 Level-0 table #73: 26716 bytes OK
+2023/03/17-20:48:40.766 3 Delete type=0 #69
+2023/03/17-20:48:40.766 3 Compacting 4@0 + 1@1 files
+2023/03/17-20:48:40.779 3 Generated table #74@0: 681 keys, 229826 bytes
+2023/03/17-20:48:40.779 3 Compacted 4@0 + 1@1 files => 229826 bytes
+2023/03/17-20:48:40.786 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/17-20:48:40.788 3 Delete type=2 #63
+2023/03/17-20:48:40.788 3 Delete type=2 #65
+2023/03/17-20:48:40.789 3 Delete type=2 #67
+2023/03/17-20:48:40.789 3 Delete type=2 #70
+2023/03/17-20:48:40.789 3 Delete type=2 #73
+2023/03/17-22:34:08.084 3 Level-0 table #76: started
+2023/03/17-22:34:08.119 3 Level-0 table #76: 20075 bytes OK
+2023/03/17-22:34:08.128 3 Delete type=0 #72

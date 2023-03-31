@@ -1,0 +1,20 @@
+2023-03-30 15:41:53.401 [info] update#setState idle
+2023-03-30 15:41:54.690 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-03-30 15:41:54.702 [info] [UtilityProcess id: 1, type: extensionHost, pid: 14726]: successfully created
+2023-03-30 15:42:23.404 [info] update#setState checking for updates
+2023-03-30 15:42:23.415 [info] update#setState available for download
+2023-03-31 11:00:57.728 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-03-31 11:00:57.744 [info] [UtilityProcess id: 2, type: extensionHost, pid: 34019]: successfully created
+2023-03-31 11:01:58.497 [info] [UtilityProcess id: 2, type: extensionHost, pid: 34019]: received exit event with code 0
+2023-03-31 11:01:58.498 [info] Extension host with pid 34019 exited with code: 0, signal: unknown.
+2023-03-31 11:01:59.351 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-03-31 11:01:59.363 [info] [UtilityProcess id: 3, type: extensionHost, pid: 34367]: successfully created
+2023-03-31 11:39:25.673 [info] [UtilityProcess id: 3, type: extensionHost, pid: 34367]: received exit event with code 0
+2023-03-31 11:39:25.673 [info] Extension host with pid 34367 exited with code: 0, signal: unknown.
+2023-03-31 11:46:31.268 [info] [UtilityProcess id: 4, type: extensionHost, pid: <none>]: creating new...
+2023-03-31 11:46:31.280 [info] [UtilityProcess id: 4, type: extensionHost, pid: 38023]: successfully created
+2023-03-31 13:32:47.100 [info] [UtilityProcess id: 4, type: extensionHost, pid: 38023]: received exit event with code 0
+2023-03-31 13:32:47.103 [info] Extension host with pid 38023 exited with code: 0, signal: unknown.
+2023-03-31 18:54:48.533 [info] [UtilityProcess id: 1, type: extensionHost, pid: 14726]: waiting to exit...
+2023-03-31 18:54:48.666 [info] [UtilityProcess id: 1, type: extensionHost, pid: 14726]: received exit event with code 0
+2023-03-31 18:54:48.666 [info] Extension host with pid 14726 exited with code: 0, signal: unknown.

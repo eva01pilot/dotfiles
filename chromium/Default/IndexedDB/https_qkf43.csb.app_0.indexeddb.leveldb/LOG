@@ -1,0 +1,6 @@
+2023/03/16-22:12:12.875 1a08b Creating DB /home/ilya/.config/chromium/Default/IndexedDB/https_qkf43.csb.app_0.indexeddb.leveldb since it was missing.
+2023/03/16-22:12:12.885 1a08b Reusing MANIFEST /home/ilya/.config/chromium/Default/IndexedDB/https_qkf43.csb.app_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/17-01:53:45.981 246b1 Level-0 table #5: started
+2023/03/17-01:53:45.986 246b1 Level-0 table #5: 3624 bytes OK
+2023/03/17-01:53:45.993 246b1 Delete type=0 #3
+2023/03/17-01:53:45.993 246b1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

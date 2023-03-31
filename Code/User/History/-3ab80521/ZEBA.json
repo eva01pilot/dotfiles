@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/home/ilya/app-master-blacklist"
+		},
+		{
+			"name": "SSH FS - bitrix",
+			"uri": "ssh://bitrix/home/bitrix/www/local/modules"
+		}
+	],
+	"settings": {
+	}
+}

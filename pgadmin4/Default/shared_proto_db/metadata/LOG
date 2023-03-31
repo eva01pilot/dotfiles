@@ -1,0 +1,3 @@
+2023/03/25-15:55:22.668 287d1 Reusing MANIFEST /home/ilya/.config/pgadmin4/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/03/25-15:55:22.669 287d1 Recovering log #3
+2023/03/25-15:55:22.669 287d1 Reusing old log /home/ilya/.config/pgadmin4/Default/shared_proto_db/metadata/000003.log 

@@ -1,0 +1,57 @@
+2023-03-30 14:52:03.937 [info] Starting worker process with pid 7472 (type: fileWatcher, window: 1).
+2023-03-30 14:52:09.651 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2023-03-30 14:52:09.653 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-03-30 14:52:09.655 [info] Getting Manifest... devsense.composer-php-vscode
+2023-03-30 14:52:09.657 [info] Getting Manifest... devsense.phptools-vscode
+2023-03-30 14:52:09.660 [info] Getting Manifest... devsense.profiler-php-vscode
+2023-03-30 14:52:09.662 [info] Getting Manifest... kelvin.vscode-sshfs
+2023-03-30 14:52:09.664 [info] Getting Manifest... prisma.prisma
+2023-03-30 14:52:10.567 [info] Installing extension: kelvin.vscode-sshfs
+2023-03-30 14:52:10.574 [info] Installing extension: devsense.composer-php-vscode
+2023-03-30 14:52:10.604 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-03-30 14:52:10.606 [info] Installing extension: devsense.profiler-php-vscode
+2023-03-30 14:52:10.611 [info] Installing extension: bradlc.vscode-tailwindcss
+2023-03-30 14:52:10.613 [info] Installing extension: prisma.prisma
+2023-03-30 14:52:10.616 [info] Installing extension: devsense.phptools-vscode
+2023-03-30 14:52:24.614 [info] Extension signature verification: devsense.profiler-php-vscode. Verification status: Verified.
+2023-03-30 14:52:25.004 [info] Extension signature verification: kelvin.vscode-sshfs. Verification status: Verified.
+2023-03-30 14:52:25.021 [info] Extracted extension to /home/ilya/.vscode/extensions/.e70ea71a-061b-4b0a-9f2a-b949720fdb7e: devsense.profiler-php-vscode
+2023-03-30 14:52:25.043 [info] Extension signature verification: devsense.composer-php-vscode. Verification status: Verified.
+2023-03-30 14:52:25.044 [info] Extension signature verification: catppuccin.catppuccin-vsc. Verification status: Verified.
+2023-03-30 14:52:25.063 [info] Renamed to /home/ilya/.vscode/extensions/devsense.profiler-php-vscode-1.32.12895
+2023-03-30 14:52:25.089 [info] Extracting completed. devsense.profiler-php-vscode
+2023-03-30 14:52:25.133 [info] Extension installed successfully: devsense.profiler-php-vscode
+2023-03-30 14:52:25.255 [info] Marked extension as uninstalled devsense.profiler-php-vscode-1.31.12821
+2023-03-30 14:52:25.335 [info] Extracted extension to /home/ilya/.vscode/extensions/.04110f77-6e20-46b4-9fbf-5ea77536545f: devsense.composer-php-vscode
+2023-03-30 14:52:25.346 [info] Extracted extension to /home/ilya/.vscode/extensions/.b73b1cf1-c577-49f5-a6bf-0138a566c92b: catppuccin.catppuccin-vsc
+2023-03-30 14:52:25.351 [info] Renamed to /home/ilya/.vscode/extensions/devsense.composer-php-vscode-1.32.12895
+2023-03-30 14:52:25.363 [info] Renamed to /home/ilya/.vscode/extensions/catppuccin.catppuccin-vsc-2.6.2
+2023-03-30 14:52:25.369 [info] Extracting completed. devsense.composer-php-vscode
+2023-03-30 14:52:25.402 [info] Extracting completed. catppuccin.catppuccin-vsc
+2023-03-30 14:52:25.423 [info] Extension installed successfully: devsense.composer-php-vscode
+2023-03-30 14:52:25.508 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-03-30 14:52:25.517 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.6.1
+2023-03-30 14:52:25.518 [info] Marked extension as uninstalled devsense.composer-php-vscode-1.31.12821
+2023-03-30 14:52:25.705 [info] Extracted extension to /home/ilya/.vscode/extensions/.2dfb2b2f-1208-40f7-be0a-a9dd340a3044: kelvin.vscode-sshfs
+2023-03-30 14:52:25.718 [info] Renamed to /home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.26.0
+2023-03-30 14:52:25.722 [info] Extracting completed. kelvin.vscode-sshfs
+2023-03-30 14:52:25.742 [info] Extension installed successfully: kelvin.vscode-sshfs
+2023-03-30 14:52:25.780 [info] Marked extension as uninstalled kelvin.vscode-sshfs-1.25.0
+2023-03-30 14:52:28.312 [info] Extension signature verification: bradlc.vscode-tailwindcss. Verification status: Verified.
+2023-03-30 14:52:28.789 [info] Extracted extension to /home/ilya/.vscode/extensions/.38bb28a9-af1c-4945-9b5f-499c41d78cd3: bradlc.vscode-tailwindcss
+2023-03-30 14:52:28.802 [info] Renamed to /home/ilya/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.11
+2023-03-30 14:52:28.807 [info] Extracting completed. bradlc.vscode-tailwindcss
+2023-03-30 14:52:28.853 [info] Extension installed successfully: bradlc.vscode-tailwindcss
+2023-03-30 14:52:28.927 [info] Marked extension as uninstalled bradlc.vscode-tailwindcss-0.9.9
+2023-03-30 14:52:34.914 [info] Extension signature verification: prisma.prisma. Verification status: Verified.
+2023-03-30 14:52:38.400 [info] Extracted extension to /home/ilya/.vscode/extensions/.63f737c6-3529-4ca4-b546-85c580fa5624: prisma.prisma
+2023-03-30 14:52:38.407 [info] Renamed to /home/ilya/.vscode/extensions/prisma.prisma-4.12.0
+2023-03-30 14:52:38.409 [info] Extracting completed. prisma.prisma
+2023-03-30 14:52:38.423 [info] Extension installed successfully: prisma.prisma
+2023-03-30 14:52:38.449 [info] Marked extension as uninstalled prisma.prisma-4.11.0
+2023-03-30 14:52:41.339 [info] Extension signature verification: devsense.phptools-vscode. Verification status: Verified.
+2023-03-30 14:52:41.787 [info] Extracted extension to /home/ilya/.vscode/extensions/.4b7eafeb-3fbe-46e6-9da0-b73d1185b163: devsense.phptools-vscode
+2023-03-30 14:52:41.800 [info] Renamed to /home/ilya/.vscode/extensions/devsense.phptools-vscode-1.32.12895-linux-x64
+2023-03-30 14:52:41.807 [info] Extracting completed. devsense.phptools-vscode
+2023-03-30 14:52:41.826 [info] Extension installed successfully: devsense.phptools-vscode
+2023-03-30 14:52:41.881 [info] Marked extension as uninstalled devsense.phptools-vscode-1.31.12821-linux-x64

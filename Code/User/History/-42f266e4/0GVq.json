@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "/home/ilya/test-selfieid"
+		},
+		{
+			"name": "SSH FS - bitrix",
+			"uri": "ssh://bitrix/home/bitrix/www/local/modules"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "/home/ilya/app-employee-geo"
+		},
+		{
+			"name": "SSH FS - bitrix",
+			"uri": "ssh://bitrix/home/bitrix/www/local/modules"
+		}
+	],
+	"settings": {}
+}

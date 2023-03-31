@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://api.bitrix24.com/api/v1/"></script>
+  <title>Vite + Vue + TS</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+<script>
+  BX24.install(async function () {
+    const addFields = async () => {
+      BX24.callMethod('userfieldtype.add', {
+        USER_TYPE_ID: 'nebo_fio',
+        HANDLER: location.origin + location.pathname,
+        TITLE: 'Поле ФИО',
+        DESCRIPTION: 'Поле с подсказками по ФИО'
+      }, () => {
+
+        BX24.callMethod('crm.lead.userfield.add', {
+          fields: {
+            "FIELD_NAME": "NEBO_FIO",
+            "EDIT_FORM_LABEL": "Поле ФИО",
+            "LIST_COLUMN_LABEL": "Поле ФИО",
+            "USER_TYPE_ID": "nebo_fio",
+            "XML_ID": "NEBO_FIO",
+          }
+        })
+        BX24.callMethod('crm.contact.userfield.add', {
+          fields: {
+            "FIELD_NAME": "NEBO_FIO",
+            "EDIT_FORM_LABEL": "Поле ФИО",
+            "LIST_COLUMN_LABEL": "Поле ФИО",
+            "USER_TYPE_ID": "nebo_fio",
+            "XML_ID": "NEBO_FIO",
+          }
+        })
+        BX24.callMethod("crm.lead.userfield.add", {
+          fields: {
+            FIELD_NAME: "NEBO_GENDER",
+            EDIT_FORM_LABEL: "Выберите гендер",
+            LIST_COLUMN_LABEL: "Выберите гендер",
+            USER_TYPE_ID: "enumeration",
+            XML_ID: "NEBO_GENDER",
+            LIST: [
+              { VALUE: "Мужчина", XML_ID: "MALE" },
+              { VALUE: "Женщина", XML_ID: "FEMALE" },
+              { VALUE: "Иное", XML_ID: "OTHER" },
+            ],
+            SETTINGS: { DEFAULT_VALUE: "Мужчина" },
+          },
+        });
+        BX24.callMethod("crm.contact.userfield.add", {
+          fields: {
+            FIELD_NAME: "NEBO_GENDER",
+            EDIT_FORM_LABEL: "Выберите гендер",
+            LIST_COLUMN_LABEL: "Выберите гендер",
+            USER_TYPE_ID: "enumeration",
+            XML_ID: "NEBO_GENDER",
+            LIST: [
+              { VALUE: "Мужчина", XML_ID: "MALE" },
+              { VALUE: "Женщина", XML_ID: "FEMALE" },
+              { VALUE: "Иное", XML_ID: "OTHER" },
+            ],
+            SETTINGS: { DEFAULT_VALUE: "Мужчина" },
+          },
+        });
+        BX24.callMethod("crm.lead.userfield.list", {
+          order: { SORT: "ASC" },
+          filter: {
+            XML_ID: ["NEBO_FIO", "NEBO_GENDER",
+            ]
+          },
+        }, (res) => {
+          console.log(res)
+          if (res.error) console.error("nope");
+          else {
+            let options = res.filter((el) => el.XML_ID === "NEBO_GENDER")[0]
+              .LIST;
+            BX24.appOption.set(
+              "genderFieldsLead", options
+            );
+            BX24.appOption.get('genderFieldsLead')
+          }
+        })
+        BX24.callMethod("crm.contact.userfield.list", {
+          order: { SORT: "ASC" },
+          filter: {
+            XML_ID: ["NEBO_FIO", "NEBO_GENDER",
+            ]
+          },
+        }, (res) => {
+          console.log(res)
+          if (!fieldsContact.result) console.error("nope");
+          else {
+            let options = res.filter((el) => el.XML_ID === "NEBO_GENDER")[0]
+              .LIST;
+            BX24.appOption.set(
+              "genderFieldsContact", options
+            );
+          }
+        })
+      })
+    }
+    BX24.installFinish();
+  });
+</script>
+<style>
+
+</style>
+
+</html>

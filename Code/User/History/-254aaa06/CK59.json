@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 18,
+    "sshfs.configs": [
+        {
+            "name": "bitrix"
+        }
+    ]
+}

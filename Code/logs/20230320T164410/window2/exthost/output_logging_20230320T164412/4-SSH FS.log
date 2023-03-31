@@ -1,0 +1,98 @@
+[INFO]    
+Created output channel for vscode-sshfs
+When posting your logs somewhere, keep the following in mind:
+  - While the logging tries to censor your passwords/passphrases/..., double check!
+    Maybe you also want to censor out e.g. the hostname/IP you're connecting to.
+  - If you want to report an issue regarding authentication or something else that
+    seems to be more of an issue with the actual SSH2 connection, it might be handy
+    to reconnect with this added to your User Settings (settings.json) first:
+      "sshfs.flags": [ "DEBUG_SSH2" ],
+    This will (for new connections) also enable internal SSH2 logging.
+
+[INFO]    Calculated config flags: {"fs_notify_errors":[true,"Fix for issue #282"]}
+[INFO]    Extension activated, version 1.25.0, mode 1
+[DEBUG]   Running VS Code version 1.75.1 {
+    "node": "16.14.2",
+    "v8": "10.2.154.23-electron.0",
+    "uv": "1.43.0",
+    "zlib": "1.2.12.1-motley",
+    "brotli": "1.0.9",
+    "ares": "1.18.1",
+    "modules": "106",
+    "nghttp2": "1.45.1",
+    "napi": "8",
+    "llhttp": "6.0.4",
+    "openssl": "1.1.1",
+    "cldr": "40.0",
+    "icu": "70.1",
+    "tz": "2022b",
+    "unicode": "14.0",
+    "electron": "19.1.9",
+    "microsoft-build": "17901372",
+    "chrome": "102.0.5005.194"
+}
+[INFO]    Loading configurations...
+[DEBUG]   	Added configuration bitrix from [1]
+[DEBUG]   	Added configuration bitrixapp from [1]
+[INFO]    Found 2 configurations
+[INFO]    Command received to connect bitrix
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.vscode/settings.json
+[INFO]    [createConnection(bitrix,config)] Creating a new connection for 'bitrix'
+[INFO]    Calculating actual config
+[DEBUG]   	Final configuration:
+{
+    "name": "bitrix",
+    "root": "/home/bitrix/www/local/modules/",
+    "username": "root",
+    "password": "<censored>",
+    "host": "77.91.127.222",
+    "_location": 1,
+    "_locations": [
+        1
+    ],
+    "_calculated": {
+        "name": "bitrix",
+        "root": "/home/bitrix/www/local/modules/",
+        "username": "root",
+        "password": "<censored>",
+        "host": "77.91.127.222",
+        "_location": 1,
+        "_locations": [
+            1
+        ]
+    },
+    "port": 22
+}
+[INFO]    [createSocket(bitrix)] Creating socket
+[DEBUG]   [createSocket(bitrix)] Connecting to 77.91.127.222:22
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.vscode/tasks.json
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.vscode/launch.json
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/composer.json
+[INFO]    [createConnection(bitrix,config)] Remote version: OpenSSH_7.4
+[DEBUG]   [createConnection(bitrix,config)] Detected known $SHELL '/bin/bash' (bash)
+[DEBUG]   [createConnection(bitrix,config)] Home path: /root
+[DEBUG]   [createConnection(bitrix,config)] Environment: []
+[INFO]    [getSFTP(bitrix)] Creating SFTP session using standard sftp subsystem
+[INFO]    [SSHFileSystem(bitrix)] SSHFileSystem created
+[INFO]    Created SSHFileSystem for bitrix, reading root directory...
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (A) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/settings.json
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (A) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/tasks.json
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (A) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/launch.json
+[ERROR]   Error handling uri: ssh://bitrix/home/bitrix/www/local/modules/composer.json
+Error: No such file
+JSON: {"code":2}
+Error: No such file
+	at 101 (/home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.25.0/dist/14f8.extension.js:1:148276)
+	at SFTP.push (/home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.25.0/dist/14f8.extension.js:1:164491)
+	at CHANNEL_DATA (/home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.25.0/dist/14f8.extension.js:1:92858)
+	at 94 (/home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.25.0/dist/14f8.extension.js:1:243835)
+Logged at:
+	at ee.<anonymous> (/home/ilya/.vscode/extensions/kelvin.vscode-sshfs-1.25.0/dist/f1d0.extension.js:1:2287)
+[DEBUG]   Error converted to: EntryNotFound (FileSystemError): ssh://bitrix/home/bitrix/www/local/modules/composer.json
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (FA) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/settings.json
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (FA) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/tasks.json
+[DEBUG]   [SSHFileSystem(bitrix)] Ignored (FA) FileNotFound error for: ssh://bitrix/home/bitrix/www/local/modules/.vscode/launch.json
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/composer.lock
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.git/config
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.vscode/extensions.json
+[DEBUG]   Reading ssh://bitrix/home/bitrix/www/local/modules/.vscode/extensions.json

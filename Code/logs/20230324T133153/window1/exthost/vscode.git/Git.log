@@ -1,0 +1,22 @@
+2023-03-24 13:31:58.495 [info] Log level: Info
+2023-03-24 13:31:58.495 [info] Validating found git in: "git"
+2023-03-24 13:31:58.495 [info] Using git "2.39.2" from "git"
+2023-03-24 13:31:58.495 [info] > git rev-parse --show-toplevel [42ms]
+2023-03-24 13:31:58.495 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-03-24 13:31:58.495 [info] Open repository: /home/ilya/app-field-fio
+2023-03-24 13:31:58.495 [info] > git rev-parse --show-toplevel [26ms]
+2023-03-24 13:31:58.495 [info] > git config --get commit.template [17ms]
+2023-03-24 13:31:58.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2023-03-24 13:31:58.495 [info] > git rev-parse --show-toplevel [95ms]
+2023-03-24 13:31:58.495 [info] > git status -z -uall [51ms]
+2023-03-24 13:31:58.495 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2023-03-24 13:31:58.495 [info] > git rev-parse --show-toplevel [44ms]
+2023-03-24 13:31:58.495 [info] > git config --get commit.template [17ms]
+2023-03-24 13:31:58.495 [info] > git rev-parse --show-toplevel [18ms]
+2023-03-24 13:31:58.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-03-24 13:31:58.495 [info] > git status -z -uall [19ms]
+2023-03-24 13:31:58.495 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2023-03-24 13:31:58.495 [info] > git check-ignore -v -z --stdin [3ms]
+2023-03-24 13:32:00.432 [info] > git show --textconv :src/screens/tabs/Parse.vue [37ms]
+2023-03-24 13:32:00.489 [info] > git ls-files --stage -- /home/ilya/app-field-fio/src/screens/tabs/Parse.vue [57ms]
+2023-03-24 13:32:00.521 [info] > git cat-file -s 8aaf68a916b54540039ca35d23d1ca904c0883b0 [11ms]

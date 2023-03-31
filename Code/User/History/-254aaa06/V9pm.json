@@ -1,0 +1,14 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 18,
+    "sshfs.configs": [
+        {
+            "name": "bitrix",
+            "root": "/home/bitrix/www/local/modules/",
+            "username": "root",
+            "password": "joi76rewH+1Q",
+            "host": "77.91.127.222"
+        }
+    ],
+    "workbench.colorTheme": "Catppuccin Mocha"
+}

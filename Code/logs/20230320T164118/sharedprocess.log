@@ -1,0 +1,25 @@
+2023-03-20 16:41:22.436 [info] Starting worker process with pid 16791 (type: fileWatcher, window: 1).
+2023-03-20 16:41:27.350 [info] Getting Manifest... devsense.composer-php-vscode
+2023-03-20 16:41:27.351 [info] Getting Manifest... devsense.phptools-vscode
+2023-03-20 16:41:27.352 [info] Getting Manifest... devsense.profiler-php-vscode
+2023-03-20 16:41:28.809 [info] Installing extension: devsense.composer-php-vscode
+2023-03-20 16:41:28.841 [info] Installing extension: devsense.phptools-vscode
+2023-03-20 16:41:28.846 [info] Installing extension: devsense.profiler-php-vscode
+2023-03-20 16:41:39.180 [info] Extension signature verification: devsense.composer-php-vscode. Verification status: Verified.
+2023-03-20 16:41:39.231 [info] Extracted extension to /home/ilya/.vscode/extensions/.0f2f7d37-8421-4626-a316-2c4988fbd723: devsense.composer-php-vscode
+2023-03-20 16:41:39.238 [info] Renamed to /home/ilya/.vscode/extensions/devsense.composer-php-vscode-1.31.12821
+2023-03-20 16:41:39.240 [info] Extracting completed. devsense.composer-php-vscode
+2023-03-20 16:41:39.259 [info] Extension installed successfully: devsense.composer-php-vscode
+2023-03-20 16:41:39.285 [info] Marked extension as uninstalled devsense.composer-php-vscode-1.31.12740
+2023-03-20 16:41:41.843 [info] Extension signature verification: devsense.profiler-php-vscode. Verification status: Verified.
+2023-03-20 16:41:41.872 [info] Extracted extension to /home/ilya/.vscode/extensions/.0c280efe-0adc-415a-9429-ace93c67add1: devsense.profiler-php-vscode
+2023-03-20 16:41:41.879 [info] Renamed to /home/ilya/.vscode/extensions/devsense.profiler-php-vscode-1.31.12821
+2023-03-20 16:41:41.882 [info] Extracting completed. devsense.profiler-php-vscode
+2023-03-20 16:41:41.897 [info] Extension installed successfully: devsense.profiler-php-vscode
+2023-03-20 16:41:41.918 [info] Marked extension as uninstalled devsense.profiler-php-vscode-1.31.12740
+2023-03-20 16:41:56.194 [info] Extension signature verification: devsense.phptools-vscode. Verification status: Verified.
+2023-03-20 16:41:56.623 [info] Extracted extension to /home/ilya/.vscode/extensions/.49219bbe-d217-4b3c-adc6-8a8dc615a43a: devsense.phptools-vscode
+2023-03-20 16:41:56.630 [info] Renamed to /home/ilya/.vscode/extensions/devsense.phptools-vscode-1.31.12821-linux-x64
+2023-03-20 16:41:56.635 [info] Extracting completed. devsense.phptools-vscode
+2023-03-20 16:41:56.653 [info] Extension installed successfully: devsense.phptools-vscode
+2023-03-20 16:41:56.685 [info] Marked extension as uninstalled devsense.phptools-vscode-1.31.12740-linux-x64

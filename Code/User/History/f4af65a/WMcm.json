@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/home/ilya/sd-shop-next"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true
+	}
+}

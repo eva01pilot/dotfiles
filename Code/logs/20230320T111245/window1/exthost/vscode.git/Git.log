@@ -1,0 +1,20 @@
+2023-03-20 11:12:48.014 [info] Log level: Info
+2023-03-20 11:12:48.014 [info] Validating found git in: "git"
+2023-03-20 11:12:48.014 [info] Using git "2.39.2" from "git"
+2023-03-20 11:12:48.019 [info] > git rev-parse --show-toplevel [8ms]
+2023-03-20 11:12:48.040 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-03-20 11:12:48.050 [info] Open repository: /home/ilya/test-selfieid
+2023-03-20 11:12:48.093 [info] > git config --get commit.template [5ms]
+2023-03-20 11:12:48.093 [info] > git rev-parse --show-toplevel [14ms]
+2023-03-20 11:12:48.110 [info] > git rev-parse --show-toplevel [9ms]
+2023-03-20 11:12:48.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-03-20 11:12:48.136 [info] > git status -z -uall [11ms]
+2023-03-20 11:12:48.137 [info] > git rev-parse --show-toplevel [21ms]
+2023-03-20 11:12:48.146 [info] > git rev-parse --show-toplevel [3ms]
+2023-03-20 11:12:48.153 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2023-03-20 11:12:48.173 [info] > git rev-parse --show-toplevel [21ms]
+2023-03-20 11:12:48.175 [info] > git config --get commit.template [6ms]
+2023-03-20 11:12:48.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-03-20 11:12:48.212 [info] > git status -z -uall [9ms]
+2023-03-20 11:12:48.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-03-20 11:12:48.595 [info] > git check-ignore -v -z --stdin [3ms]

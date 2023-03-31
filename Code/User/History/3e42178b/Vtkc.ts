@@ -1,0 +1,17 @@
+import BitrixJS, { ModeConfig } from '@sknebo/bitrix-js'
+import router from './router';
+import store from './store';
+const config = {
+    client_id: 'local.63f897bf703365.01579850',
+    client_secret: '6Y74xJ9igWQfu96uPhJr3O3zX9J5622HavDnw19yTUyn2skW9W',
+};
+let bitrix = BitrixJS({
+    ...config,
+    ...store.state.tokens,
+    domain: 'tcrm.sknebo.ru',
+    mode: ModeConfig.OAuth,
+    https: true
+})
+
+
+export default bitrix

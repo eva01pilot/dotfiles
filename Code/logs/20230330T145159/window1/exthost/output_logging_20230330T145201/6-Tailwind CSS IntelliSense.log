@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/ilya/app-employee-geo","configPath":"/home/ilya/app-employee-geo/tailwind.config.cjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/ilya/app-employee-geo/tailwind.config.cjs","priority":0},{"pattern":"/home/ilya/app-employee-geo/index.html","priority":1},{"pattern":"/home/ilya/app-employee-geo/src/**/*.{vue,js,ts,jsx,tsx}","priority":1},{"pattern":"/home/ilya/app-employee-geo/**","priority":3}]}]
+[Global] Adding watch patterns: /home/ilya/app-employee-geo/tailwind.config.cjs, /home/ilya/app-employee-geo
+[tailwind.config.cjs] Initializing...
+[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/ilya/app-employee-geo/tailwind.config.cjs
+[tailwind.config.cjs] Loaded postcss v8.4.21: /home/ilya/app-employee-geo/node_modules/postcss
+[tailwind.config.cjs] Loaded tailwindcss v3.2.6: /home/ilya/app-employee-geo/node_modules/tailwindcss
+[tailwind.config.cjs] Building...

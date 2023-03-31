@@ -1,0 +1,12 @@
+2023-03-31 18:55:06.884 [info] Starting worker process with pid 71791 (type: fileWatcher, window: 2).
+2023-03-31 18:55:06.885 [info] Starting worker process with pid 71793 (type: fileWatcher, window: 1).
+2023-03-31 18:55:07.545 [info] Deleted from disk catppuccin.catppuccin-vsc /home/ilya/.vscode/extensions/catppuccin.catppuccin-vsc-2.6.2
+2023-03-31 18:55:10.823 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
+2023-03-31 18:56:36.356 [info] Worker process with pid 71791 terminated normally (type: fileWatcher, window: 2).
+2023-03-31 19:31:55.359 [info] Starting worker process with pid 73856 (type: fileWatcher, window: 4).
+2023-03-31 19:32:12.825 [info] Worker process with pid 73856 terminated normally (type: fileWatcher, window: 4).
+2023-03-31 19:32:37.711 [info] Starting worker process with pid 74321 (type: fileWatcher, window: 5).
+2023-03-31 19:33:45.825 [info] Worker process with pid 74321 terminated normally (type: fileWatcher, window: 5).
+2023-03-31 19:34:14.295 [info] Starting worker process with pid 75071 (type: fileWatcher, window: 6).
+2023-03-31 19:34:29.405 [info] Worker process with pid 75071 terminated normally (type: fileWatcher, window: 6).
+2023-03-31 19:34:57.950 [info] Starting worker process with pid 75294 (type: fileWatcher, window: 7).

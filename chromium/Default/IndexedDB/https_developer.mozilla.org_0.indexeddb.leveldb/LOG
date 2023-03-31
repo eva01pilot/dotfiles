@@ -1,0 +1,7 @@
+2023/03/16-23:20:32.879 1a08b Reusing MANIFEST /home/ilya/.config/chromium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/16-23:20:32.879 1a08b Recovering log #3
+2023/03/16-23:20:32.886 1a08b Reusing old log /home/ilya/.config/chromium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/000003.log 
+2023/03/17-01:19:08.713 1a08b Level-0 table #5: started
+2023/03/17-01:19:08.724 1a08b Level-0 table #5: 92943 bytes OK
+2023/03/17-01:19:08.731 1a08b Delete type=0 #3
+2023/03/17-01:19:08.732 1a08b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

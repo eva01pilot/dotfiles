@@ -1,0 +1,6 @@
+2023/03/16-22:15:09.885 1a08b Creating DB /home/ilya/.config/chromium/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb since it was missing.
+2023/03/16-22:15:09.896 1a08b Reusing MANIFEST /home/ilya/.config/chromium/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/16-22:16:11.703 1a08b Level-0 table #5: started
+2023/03/16-22:16:11.707 1a08b Level-0 table #5: 845 bytes OK
+2023/03/16-22:16:11.713 1a08b Delete type=0 #3
+2023/03/16-22:16:11.714 1a08b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
